@@ -4,11 +4,11 @@ $FontPathOpenSans: "./fonts";
   font-family: 'Open Sans';
   font-weight: 300;
   font-style: normal;
-  src: url('#{FontPathOpenSans}/Light/OpenSans-Light.eot');
-  src: url('#{FontPathOpenSans}/Light/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
-       url('#{FontPathOpenSans}/Light/OpenSans-Light.woff') format('woff'),
-       url('#{FontPathOpenSans}/Light/OpenSans-Light.ttf') format('truetype'),
-       url('#{FontPathOpenSans}/Light/OpenSans-Light.svg#OpenSansLight') format('svg');
+  src: url('#{$FontPathOpenSans}/Light/OpenSans-Light.eot');
+  src: url('#{$FontPathOpenSans}/Light/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+       url('#{$FontPathOpenSans}/Light/OpenSans-Light.woff') format('woff'),
+       url('#{$FontPathOpenSans}/Light/OpenSans-Light.ttf') format('truetype'),
+       url('#{$FontPathOpenSans}/Light/OpenSans-Light.svg#OpenSansLight') format('svg');
 }
 
 @font-face {
